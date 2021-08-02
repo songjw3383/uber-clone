@@ -9,9 +9,9 @@ const initialState = {
 export const navSlice = createSlice({
     name: 'nav',
     initialState,
-    reducer: {
+    reducers: {
         setOrigin: (state, action) => {
-            state.orgin = action.payload;
+            state.origin = action.payload;
         },
         setDestination: (state, action) => {
             state.destination = action.payload;
@@ -21,11 +21,10 @@ export const navSlice = createSlice({
         },
     },
 });
-
-export const { setOrgin, setDestination, setTravelTimeInformation } = navSlice.actions;
+export const { setOrigin, setDestination, setTravelTimeInformation } = navSlice.actions;
 
 //selectors, means exporting current (changed) state : 현재 아니면 바뀐 state의 값을 export
-export const selectOrgin = (state) => state.nav.orgin;
+export const selectOrigin = (state) => state.nav.origin;
 export const selectDestination = (state) => state.nav.destination;
 export const selectTravelTimeInformation = (state) => state.nav.travelTimeInformation;
 
