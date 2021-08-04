@@ -15,7 +15,7 @@
 
 - **페이지 구성 (flow chart)** 
 
-![Uber_Flowchart](https://user-images.githubusercontent.com/56250064/128135812-b380bdf0-dd56-4539-ba76-aef22d5063c4.png)
+![Uber_Flowchart](https://user-images.githubusercontent.com/56250064/128149596-44144684-1d7f-4995-9cca-52588e7789a8.png)
 
 ## 개발 도구 및 환경
 - Visual Studio Code
