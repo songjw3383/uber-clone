@@ -15,7 +15,7 @@
 
 - **페이지 구성 (flow chart)** 
 
-<img src="https://user-images.githubusercontent.com/56250064/128149596-44144684-1d7f-4995-9cca-52588e7789a8.png" width="500")
+<img src="https://user-images.githubusercontent.com/56250064/128149596-44144684-1d7f-4995-9cca-52588e7789a8.png" width="500">
 
 ## 개발 도구 및 환경
 - Visual Studio Code
