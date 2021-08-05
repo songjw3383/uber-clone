@@ -6,7 +6,7 @@ import { Icon } from 'react-native-elements/dist/icons/Icon'
 import { useSelector } from 'react-redux'
 import tw from "tailwind-react-native-classnames"
 import { selectTravelTimeInformation } from '../slices/navSlice'
-
+import { selectOrigin, selectDestination } from '../slices/navSlice'
 const data= [
     {
         id: "Uber-X-123",
@@ -34,6 +34,8 @@ const RideOptionsCard = () => {
     const navigation = useNavigation();
     const [selected, setSelected] = useState(null);
     const travelTimeInformation = useSelector(selectTravelTimeInformation);
+    const origin = useSelector(selectOrigin);
+    const destination = useSelector(selectDestination);
 
     return (
         <SafeAreaView style={tw`bg-white flex-1`}>
@@ -45,7 +47,11 @@ const RideOptionsCard = () => {
                     <Icon name="chevron-left" type="fontawesome"/>
                 </TouchableOpacity>
                 <Text style={tw`text-center py-5 text-xl`}>Select a Ride - {travelTimeInformation?.distance?.text}</Text>
-                
+                <View style={tw`flex-row text-center items-center justify-around pl-2 pr-2`}>
+                    <Text>{origin.description}</Text>
+                    <Icon name="chevron-right" type="fontawesome"/>
+                    <Text>{destination.description}</Text>
+                </View>
             </View>
 
             <FlatList 
