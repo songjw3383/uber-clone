@@ -43,7 +43,7 @@
 <center><img src="https://user-images.githubusercontent.com/56250064/128139624-a790d271-89d9-4d57-a144-3643f1b64611.jpg" width="300"></center>
 
 ### - 시연 영상
-<center><img src="https://user-images.githubusercontent.com/56250064/128388111-ced99d49-d385-40ce-a6fb-34eed6a8bf16.giff" width="300"></center>
+<center><img src="https://user-images.githubusercontent.com/56250064/128388111-ced99d49-d385-40ce-a6fb-34eed6a8bf16.gif" width="300"></center>
 
 
 ## 마무리
