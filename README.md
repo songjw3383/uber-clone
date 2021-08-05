@@ -43,7 +43,8 @@
 <center><img src="https://user-images.githubusercontent.com/56250064/128139624-a790d271-89d9-4d57-a144-3643f1b64611.jpg" width="300"></center>
 
 ### - 시연 영상
-<center><img src="https://user-images.githubusercontent.com/56250064/128147852-70860d59-5f95-4772-8ae0-ad5cbe7056fb.gif" width="300"></center>
+<center><img src="https://user-images.githubusercontent.com/56250064/128388111-ced99d49-d385-40ce-a6fb-34eed6a8bf16.giff" width="300"></center>
+
 
 ## 마무리
 React JS 를 계속 공부하고 있던 와중에 React-Native 를 배우다 보니 큰 어려움은 없었지만, Tailwind-CSS 는 처음이다 보니 살짝 어려운 부분이 있었다.
